@@ -6,6 +6,6 @@ import retrofit2.http.POST;
 
 public interface OrchestrateAPIService {
 
-    @POST("predict/lyrics")
+    @POST("predictor/lyrics")
     Call<String> predictLyrics(@Body String lyrics);
 }
